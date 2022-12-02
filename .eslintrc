@@ -1,0 +1,12 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": "standard",
+  "plugins": [ "standard" ],
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}

@@ -1,5 +1,8 @@
 {
   "devDependencies": {},
+  "scripts": {
+    "start": "babel-node"
+  },
   "volta": {
     "node": "18.12.1"
   },
@@ -10,6 +13,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.18.10",
     "@babel/preset-env": "^7.20.2",
     "bootstrap-select": "1.13.0",
+    "chalk": "4.1.2",
     "eslint": "^8.28.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -17,6 +21,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
+    "lodash": "^4.17.21",
     "textract": "2.4.0"
   },
   "resolutions": {
